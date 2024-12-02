@@ -86,7 +86,7 @@ function showSolvedImage() {
     context.fillStyle = "gold";
     context.textAlign = "center";
     context.fillText("You deserve it BBY,", canvas.width / 2, canvas.height / 2 - 30);
-    context.fillText("you are THE BEST!", canvas.width / 2, canvas.height / 2 + 30);
+    context.fillText("let's go to NY on 7 February, you are THE BEST!", canvas.width / 2, canvas.height / 2 + 30);
 
     // Hide the initial message
     initialMessage.classList.add('hidden');

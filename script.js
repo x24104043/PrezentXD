@@ -50,10 +50,11 @@ function drawPuzzle() {
         context.strokeStyle = "#000";
         context.strokeRect(col * pieceWidth, row * pieceHeight, pieceWidth, pieceHeight);
 
-        // Add a number overlay for guidance
-        context.font = "16px Arial"; // Adjusted font size for more pieces
-        context.fillStyle = "#FFF";
-        context.fillText(piece.index + 1, col * pieceWidth + 5, row * pieceHeight + 20);
+        // Removed the number overlay code
+        // The following part was previously adding the numbers on the pieces:
+        // context.font = "16px Arial";
+        // context.fillStyle = "#FFF";
+        // context.fillText(piece.index + 1, col * pieceWidth + 5, row * pieceHeight + 20);
     });
 }
 
@@ -84,8 +85,8 @@ function showSolvedImage() {
     context.font = "bold 60px Arial";
     context.fillStyle = "gold";
     context.textAlign = "center";
-    context.fillText("Finnaly you solved it amor,sooooooooooooooo,", canvas.width / 2, canvas.height / 2 - 30);
-    context.fillText("You are going to New York!(Not alone off course XD)", canvas.width / 2, canvas.height / 2 + 30);
+    context.fillText("You deserve it BBY,", canvas.width / 2, canvas.height / 2 - 30);
+    context.fillText("you are THE BEST!", canvas.width / 2, canvas.height / 2 + 30);
 
     // Hide the initial message
     initialMessage.classList.add('hidden');

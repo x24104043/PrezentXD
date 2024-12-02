@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+#message-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+#initial-message {
+    font-size: 22px; /* Increased font size */
+    color: #333;
+    line-height: 1.8; /* Better readability */
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#puzzle-container {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+canvas {
+    border: 2px solid #333; /* Border around the canvas */
+}
+
+#success-message img {
+    max-width: 100%;
+    height: auto;
+}
